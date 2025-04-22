@@ -1,0 +1,5 @@
+# Copyright (c) 2023 Space Cubics, LLC.
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_SCSAT1_MAIN
+	select SOC_DESIGNSTART_FPGA_CORTEX_M3
