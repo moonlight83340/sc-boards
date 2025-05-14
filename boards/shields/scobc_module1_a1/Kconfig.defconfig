@@ -1,0 +1,17 @@
+# SC OBC Module 1 A1 shield
+
+# Copyright (c) 2023 Space Cubics,LLC
+# SPDX-License-Identifier: Apache-2.0
+
+if SHIELD_SCOBC_MODULE1_A1
+
+config CPU_CORTEX_M_HAS_SYSTICK
+	default y
+
+config CPU_HAS_ARM_MPU
+	default y
+
+config NUM_IRQS
+	default 32
+
+endif # SHIELD_SCOBC_MODULE1_A1

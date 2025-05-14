@@ -1,0 +1,5 @@
+# Copyright (c) 2025 Space Cubics, LLC.
+# SPDX-License-Identifier: Apache-2.0
+
+config SHIELD_SCOBC_MODULE1_A1
+	bool "OBC Module 1 A1 shield"

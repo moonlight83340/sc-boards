@@ -1,0 +1,13 @@
+identifier: scobc_module_1_a1
+name: Space Cubics OBC module 1 A1
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+supported:
+  - uart
+  - can
+  - i2c
+  - spi
+  - pwm
+  - dstrx
